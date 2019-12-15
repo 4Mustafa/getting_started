@@ -1,0 +1,58 @@
+Mustafas-MacBook-Pro:~ mustafaibrahim$ ls
+41 EYE.png		Downloads		Pictures
+441eye.png		FLVR41.png		Public
+Applications		HOT 41.png		github
+Creative Cloud Files	Library			iCloud Drive (Archive)
+Desktop			Movies			seeing 2x.png
+Documents		Music
+Mustafas-MacBook-Pro:~ mustafaibrahim$ cd documents
+Mustafas-MacBook-Pro:documents mustafaibrahim$ ls
+Adobe					GitHub
+Documents - Mustafa’s MacBook Pro	getting started
+Mustafas-MacBook-Pro:documents mustafaibrahim$ cd getting\ started\ /
+Mustafas-MacBook-Pro:getting started  mustafaibrahim$ ls
+app.js		index.html	style.css
+Mustafas-MacBook-Pro:getting started  mustafaibrahim$ git init
+Reinitialized existing Git repository in /Users/mustafaibrahim/Documents/getting started /.git/
+Mustafas-MacBook-Pro:getting started  mustafaibrahim$ git add .
+Mustafas-MacBook-Pro:getting started  mustafaibrahim$ git commit -m 'initial commit'
+On branch master
+nothing to commit, working tree clean
+Mustafas-MacBook-Pro:getting started  mustafaibrahim$  git commit -m "initial commit"
+On branch master
+nothing to commit, working tree clean
+Mustafas-MacBook-Pro:getting started  mustafaibrahim$ git remote add origin https://github.com/MustafaIbrahim4/tier-one.git
+fatal: remote origin already exists.
+Mustafas-MacBook-Pro:getting started  mustafaibrahim$ git push orgin ,aster
+error: src refspec ,aster does not match any
+error: failed to push some refs to 'orgin'
+Mustafas-MacBook-Pro:getting started  mustafaibrahim$ git push orgin master
+fatal: 'orgin' does not appear to be a git repository
+fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
+Mustafas-MacBook-Pro:getting started  mustafaibrahim$ git push -u origin master
+Enumerating objects: 5, done.
+Counting objects: 100% (5/5), done.
+Delta compression using up to 4 threads
+Compressing objects: 100% (4/4), done.
+Writing objects: 100% (5/5), 888 bytes | 888.00 KiB/s, done.
+Total 5 (delta 0), reused 0 (delta 0)
+To https://github.com/MustafaIbrahim4/tier-one.git
+ * [new branch]      master -> master
+Branch 'master' set up to track remote branch 'master' from 'origin'.
+Mustafas-MacBook-Pro:getting started  mustafaibrahim$ git status
+On branch master
+Your branch is up to date with 'origin/master'.
+
+nothing to commit, working tree clean
+Mustafas-MacBook-Pro:getting started  mustafaibrahim$ git push orgin master
+fatal: 'orgin' does not appear to be a git repository
+fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
+Mustafas-MacBook-Pro:getting started  mustafaibrahim$
+Mustafas-MacBook-Pro:getting started  mustafaibrahim$ `
+Mustafas-MacBook-Pro:getting started  mustafaibrahim$ `
